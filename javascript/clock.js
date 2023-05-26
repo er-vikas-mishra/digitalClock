@@ -44,8 +44,9 @@ window.onload = function () {
         7: "<h3><p>इशरत-ए-क़तरा है दरिया में फ़ना हो जाना,</p>दर्द का हद से गुज़रना है दवा हो जाना।<br><br><footer class='blockquote-footer'>Mirza Ghalib</footer></h3>",
         8: "<h3><p>दिल ना-उमीद तो नहीं नाकाम ही तो है,</p>लम्बी है ग़म की शाम मगर शाम ही तो है।<br><br><footer class='blockquote-footer'>Faiz Ahmad Faiz</footer></h3>",
         9: "<h3><p>किसी को घर मिला हिस्से में या कोई दुकाँ आई,</p>मैं घर में सब से छोटा था मिरे हिस्से में माँ आई।<br><br><footer class='blockquote-footer'>Munawwar Rana</footer></h3>"
+        10: "<h3><p>लाई हयात आए क़ज़ा ले चली चले, </p>अपनी ख़ुशी न आए न अपनी ख़ुशी चले।<br><br><footer class='blockquote-footer'>Sheikh Ibhrahim Zauq</footer></h3>"
     }
 
-    sher = anthology[parseInt(Math.random() * 10)];
+    sher = anthology[parseInt(Math.random() * 11)];
     document.getElementById("sherOfTheDay").innerHTML = sher;
 }
